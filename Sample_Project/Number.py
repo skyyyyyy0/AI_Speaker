@@ -1,13 +1,13 @@
 import random
 
-# Computer selects a random number between 1 and 100
+# Computer selects a random number between 1 and 99
 number = random.randint(1, 100)
 
 # Set the number of chances
 chance = 10
 count = 0 
 
-print("Guess the number between 1 and 100. You have 10 chances!")
+print("Guess the number between 1 and 99. You have 10 chances!")
 
 while count < chance:
     user_input = int(input("Guess your number: "))

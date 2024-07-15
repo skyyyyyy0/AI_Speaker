@@ -26,4 +26,4 @@ if received >= total_price:
     change = received - total_price
     print("We got ${:.2f}. Here some change ${:.2f}".format(received,change))
 else:
-    print("Insufficient funds1")
+    print("Insufficient funds")
